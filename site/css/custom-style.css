@@ -2145,6 +2145,14 @@ div.sharedaddy h3.sd-title {
 	padding: .5rem !important;
 }
 
+.footer-widgets-block .wp-block-social-links li:hover {
+	background-color: #fff !important;
+}
+
+.footer-widgets-block .wp-block-social-links li:hover svg {
+	color: #36a9e1 !important;;
+}
+
 /* Fix bottom site info */
 .site-footer .site-info {
 	padding: 1rem;
