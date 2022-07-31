@@ -1974,7 +1974,7 @@ h2, h3, h4 {
 	color: #194499;
 	text-align: left !important;
 	font-weight: 700 !important;
-	background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffcd01 50%);
+	/*background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffcd01 50%);*/
 }
 
 .entry-content {
@@ -2122,6 +2122,12 @@ div.sharedaddy h3.sd-title {
 	border: none;
 }
 
+.wp-block-search .wp-block-search__button:hover,
+.wp-block-search .wp-block-search__button:focus {
+	background: #fff !important;
+	color: #36a9e1 !important;
+}
+
 .footer-widgets-block input[type="search"] {
 	border-color: #FFF;
 	color: #FFF;
@@ -2164,10 +2170,52 @@ body.home .entry-content {
 div.home-cover {
 	height: 46rem;
 }
+
 div.home-cover .wp-block-cover__image-background {
 	background-attachment: initial;
 }
-	
+
+/* Buttons */
+.wp-block-button__link:focus {
+	outline: none;
+	box-shadow: 0 0 0 1px #fffdf4, 0 0 0 3px #174499;
+}
+
+input[type="submit"]:focus,
+input[type="submit"]:hover, 
+input[type="button"]:focus, 
+input[type="button"]:hover, 
+input[type="reset"]:focus, 
+input[type="reset"]:hover, 
+button:focus,
+button:hover,
+.wp-block-button__link:active,
+.wp-block-button__link:focus,
+.wp-block-button__link:hover {
+	background-color: #00bcd4;
+	color: #fff;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button {
+	cursor: pointer;
+}
+
+/* content A links */
+.site-content a {
+	color: #174499;
+	font-weight: 700;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.site-content a:hover {
+	background-color: #174499;
+	color: #fff;
+}
+
 /* Media queries */
 @media screen and (max-width: 782px) {
 	.main-navigation .sub-menu {
