@@ -2191,7 +2191,10 @@ button:focus,
 button:hover,
 .wp-block-button__link:active,
 .wp-block-button__link:focus,
-.wp-block-button__link:hover {
+.wp-block-button__link:hover,
+.site-content a.more-link:focus,
+.site-content a.more-link:hover
+{
 	background-color: #00bcd4;
 	color: #fff;
 }
@@ -2213,6 +2216,10 @@ button {
 
 .site-content a:hover {
 	background-color: #174499;
+	color: #fff;
+}
+
+.site-content a.more-link {
 	color: #fff;
 }
 
