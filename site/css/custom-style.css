@@ -2083,6 +2083,11 @@ body.blog article.post {
 	font-family: "Montserrat";
 }
 
+.site-content select {
+	font-size: 1.125rem;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+}
+
 /* FINE FORM */
 /* Add box shadow to sub menu */
 .menu .sub-menu {
