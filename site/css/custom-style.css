@@ -2236,6 +2236,32 @@ button {
 	color: #fff;
 }
 
+/* Camptix */
+#tix {
+	margin-left: calc(50% - 50vw + 0.75rem);
+	margin-right: calc(50% - 50vw + 0.75rem);
+	max-width: calc(100vw - 1.5rem);
+	width: calc(100vw - 1.5rem);
+}
+
+@media (min-width: 60rem) {
+	#tix {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 60rem;
+		width: 60rem;
+	}
+}
+
+/* sponsorship levels */
+.wcit-sponsrhip-levels-table mark {
+	background: none;
+}
+
+.wcit-sponsrhip-levels-table mark.has-vivid-green-cyan-color {
+	color: #18c616 !important;	
+}
+
 /* Media queries */
 @media screen and (max-width: 782px) {
 	.main-navigation .sub-menu {
