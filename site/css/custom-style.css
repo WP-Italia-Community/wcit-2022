@@ -177,6 +177,11 @@ tbody td {
 	padding: 1rem;
 }
 
+.site-title, .site-description {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
 .custom-logo {
 	width: 150px;
 	height: auto;
@@ -353,7 +358,8 @@ tbody td {
 		top: 0;
 		left: 0;
 		right: 0;
-		padding: 1em 2em 2em;
+		padding: 1em 2em;
+		border-bottom: solid 1px #444;
 		background: #fffdf4;
 	}
 
@@ -2155,7 +2161,7 @@ div.sharedaddy h3.sd-title {
 }
 
 .footer-widgets-block .wp-block-social-links li:hover svg {
-	color: #36a9e1 !important;;
+	color: #36a9e1 !important;
 }
 
 /* Fix bottom site info */
@@ -2196,7 +2202,7 @@ div.home-cover .wp-block-cover__image-background {
 	}
 
 	div.home-cover .wp-block-cover__image-background {
-		background-image: url(https://italia.wordcamp.org/2022/files/2022/08/WCIT22-Website-Hero-Mobile.png) !important;
+		background-image: url('https://italia.wordcamp.org/2022/files/2022/08/WCIT22-Website-Hero-Mobile.png') !important;
 		background-size: cover;
 	}
 }
@@ -2208,19 +2214,18 @@ div.home-cover .wp-block-cover__image-background {
 }
 
 input[type="submit"]:focus,
-input[type="submit"]:hover, 
-input[type="button"]:focus, 
-input[type="button"]:hover, 
-input[type="reset"]:focus, 
-input[type="reset"]:hover, 
+input[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
 button:focus,
 button:hover,
 .wp-block-button__link:active,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover,
 .site-content a.more-link:focus,
-.site-content a.more-link:hover
-{
+.site-content a.more-link:hover {
 	background-color: #00bcd4;
 	color: #fff;
 }
@@ -2257,6 +2262,15 @@ button {
 	width: calc(100vw - 1.5rem);
 }
 
+/* sponsorship levels  table */
+.wcit-sponsrhip-levels-table mark {
+	background: none;
+}
+
+.wcit-sponsrhip-levels-table mark.has-vivid-green-cyan-color {
+	color: #18c616 !important;
+}
+
 @media (min-width: 60rem) {
 	#tix {
 		margin-left: auto;
@@ -2264,15 +2278,6 @@ button {
 		max-width: 60rem;
 		width: 60rem;
 	}
-}
-
-/* sponsorship levels */
-.wcit-sponsrhip-levels-table mark {
-	background: none;
-}
-
-.wcit-sponsrhip-levels-table mark.has-vivid-green-cyan-color {
-	color: #18c616 !important;	
 }
 
 /* Media queries */
@@ -2291,10 +2296,20 @@ button {
 		font-size: 1rem;
 		font-weight: 700;
 	}
+
+	#footer-widget-1 {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 600px) {
-	#footer-widget-1 {
-		display: block;
+	.site-footer .site-info {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.site-footer .site-info-network,
+	.site-footer .privacy-policy-link {
+		margin-left: 0;
 	}
 }
