@@ -2198,12 +2198,12 @@ div.home-cover .wp-block-cover__image-background {
 
 @media screen and (max-width: 820px) {
 	div.home-cover {
-		height: 56rem;
+		height: 40rem;
 	}
 
 	div.home-cover .wp-block-cover__image-background {
 		background-image: url('https://italia.wordcamp.org/2022/files/2022/08/WCIT22-Website-Hero-Mobile.png') !important;
-		background-size: cover;
+		background-size: contain;
 	}
 }
 
