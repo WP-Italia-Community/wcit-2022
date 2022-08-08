@@ -2280,6 +2280,11 @@ button {
 	background-color: #174499 !important;
 }
 
+/* Hide tags on post used in HP */
+#post-3 .tags-links {
+	display: none;
+}
+
 @media (min-width: 60rem) {
 	#tix {
 		margin-left: auto;
