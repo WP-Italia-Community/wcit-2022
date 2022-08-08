@@ -2285,6 +2285,17 @@ button {
 	display: none;
 }
 
+/* Fix search, blog and archive entry content / title width */
+body.archive .entry-title,
+body.search .entry-title,
+body.search .entry-summary {
+	max-width: 60rem;
+}
+
+body.search .entry-summary {
+	margin: 0 auto;
+}
+
 @media (min-width: 60rem) {
 	#tix {
 		margin-left: auto;
