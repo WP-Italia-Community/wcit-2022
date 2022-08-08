@@ -2226,7 +2226,7 @@ button:hover,
 .wp-block-button__link:hover,
 .site-content a.more-link:focus,
 .site-content a.more-link:hover {
-	background-color: #00bcd4;
+	background-color: #00bcd4 !important;
 	color: #fff;
 }
 
@@ -2269,6 +2269,15 @@ button {
 
 .wcit-sponsrhip-levels-table mark.has-vivid-green-cyan-color {
 	color: #18c616 !important;
+}
+
+/* CTA buttons */
+.wcit-cta-button {
+	color: #fff;
+}
+
+.wcit-cta-button a {
+	background-color: #174499 !important;
 }
 
 @media (min-width: 60rem) {
