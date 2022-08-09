@@ -2144,6 +2144,11 @@ div.sharedaddy h3.sd-title {
 	color: #FFF;
 }
 
+.footer-widgets-block input[type="search"]:focus {
+	background-color: #eee;
+	color: #000;
+}
+
 .footer-widgets-block input[type="search"]::placeholder,
 .footer-widgets-block input[type="search"]::-webkit-input-placeholder {
 	color: #aaa;
