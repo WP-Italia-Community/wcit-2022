@@ -1,16 +1,18 @@
 /* Remote CSS from https://api.github.com/repos/wcus/wcus-2021/contents/style.css */
 /*
 Theme Name: WCIT2022
-Theme URI: https://github.com/wcus/wcus-2021
-Author: WCUS Organizers
-Description: A block-based theme for WCUS.
+Theme URI: https://github.com/WP-Italia-Community/wcit-2022
+Author: WCIT Organizers, WCUS Organizers
+Description: A block-based theme for WCIT.
 Requires at least: 5.8
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Template: campsite-2017
+Template: campsite-2017.tix-column-remaining {
+  display: none;
+}
 
-The WordCamp US 2021 theme is distributed under the terms of the GNU GPL.
+The WordCamp IT 2022 theme is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -35,7 +37,6 @@ body.custom-background.custom-background {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: ;
 }
 
 body {
@@ -1402,10 +1403,6 @@ body.admin-bar #tix {
 	}
 }
 
-.tix-column-remaining {
-	display: none;
-}
-
 .tix-tickets-list .tix-column-description {
 	font-weight: 700;
 }
@@ -1973,6 +1970,7 @@ body {
 }
 
 h1, h2, h3, h4 {
+	font-family: "Montserrat Alternates", "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 700 !important;
 }
 
@@ -2207,7 +2205,7 @@ div.home-cover .wp-block-cover__image-background {
 	}
 
 	div.home-cover .wp-block-cover__image-background {
-		background-image: url('https://italia.wordcamp.org/2022/files/2022/08/WCIT22-Website-Hero-Mobile.png') !important;
+		background-image: url('https://italia.wordcamp.org/2022/files/2022/08/WCIT22-Website-Hero-Mobile-2.png') !important;
 		background-size: contain;
 	}
 }
@@ -2286,7 +2284,7 @@ button {
 }
 
 #tix-attendees .avatar {
-	float: right;	
+	float: right;
 }
 
 #tix-attendees .tix-columns-3 li {
@@ -2313,7 +2311,7 @@ button {
 }
 
 #tix-attendees .tix-field.tix-nome-azienda {
-	font-size: 0.95rem;
+	font-size: .95rem;
 }
 
 #tix-attendees .tix-field.tix-attendee-twitter,
