@@ -1521,12 +1521,12 @@ body.admin-bar #tix {
 
 @media (max-width: 480px) {
 	#tix-attendees .tix-attendee-list {
-		display: block;
+		/*display: block;*/
 	}
 
 	#tix-attendees .tix-attendee-list li {
 		margin-bottom: 1.5rem;
-		width: 100%;
+		/*width: 100%;*/
 		text-align: left;
 		display: block;
 		clear: left;
@@ -1994,6 +1994,10 @@ h2, h3, h4 {
 	text-align: center !important;
 }
 
+.entry-title {
+	word-break: break-word;
+}
+
 /* MENU */
 .menu li a {
 	color: #000;
@@ -2282,10 +2286,14 @@ button {
 	#tix-attendees .tix-attendee-list {
 		grid-template-columns: repeat(3,1fr);
 	}
+	#tix-attendees .tix-field.tix-attendee-twitter,
+	#tix-attendees .tix-field.tix-attendee-url {
+		float: left !important;
+	}
 }
 
 #tix-attendees .avatar {
-	float: right;
+	float: right !important;
 }
 
 #tix-attendees .tix-columns-3 li {
@@ -2317,7 +2325,7 @@ button {
 
 #tix-attendees .tix-field.tix-attendee-twitter,
 #tix-attendees .tix-field.tix-attendee-url {
-	float: left;
+	float: none;
 	font-size: .85rem;
 }
 
