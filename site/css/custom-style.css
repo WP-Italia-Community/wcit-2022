@@ -2263,6 +2263,7 @@ button {
 	margin-right: calc(50% - 50vw + 0.75rem);
 	max-width: calc(100vw - 1.5rem);
 	width: calc(100vw - 1.5rem);
+	overflow-x: auto;
 }
 
 #tix-attendees .tix-attendee-list {
