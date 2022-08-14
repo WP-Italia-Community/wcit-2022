@@ -2294,6 +2294,7 @@ button {
 
 #tix-attendees .avatar {
 	float: right !important;
+	box-shadow: rgba(23, 68, 153, 0.6) -4px 4px, rgba(23, 68, 153, 0.4) -8px 8px, rgba(23, 68, 153, 0.2) -12px 12px, rgba(23, 68, 153, 0.1) -16px 16px;
 }
 
 #tix-attendees .tix-columns-3 li {
