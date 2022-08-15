@@ -2185,11 +2185,14 @@ div.sharedaddy h3.sd-title {
 }
 
 /* Home page cover*/
-body.home .entry-header {
+body.home .entry-header,
+body.page-id-1034 .entry-header
+{
 	display: none;
 }
 
-body.home .entry-content {
+body.home .entry-content,
+body.page-id-1034 .entry-content {
 	margin-top: 0;
 }
 
@@ -2212,6 +2215,35 @@ div.home-cover .wp-block-cover__image-background {
 		background-image: url('https://italia.wordcamp.org/2022/files/2022/08/WCIT22-Website-Hero-Mobile-2.png') !important;
 		background-size: contain;
 	}
+}
+
+/* Home page CTA */
+.wcit-home-cta {
+	max-width: 62rem;
+	margin: 0 auto;
+	padding: 1rem !important;
+}
+
+.wcit-home-cta h3 {
+	text-align: center !important;
+	margin: 10px 0 0 0;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.wcit-home-cta .wp-block-column {
+	border: 3px #ddd solid;
+	border-radius: 20px;
+}
+
+.wcit-home-cta a {
+	text-decoration: none;
+}
+
+.wcit-home-cta a:hover {
+	background-color: initial !important;
+	color: #174499 !important;
+	text-decoration: none !important;
 }
 
 /* Buttons */
