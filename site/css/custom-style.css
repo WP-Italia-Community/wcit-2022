@@ -2236,6 +2236,10 @@ div.home-cover .wp-block-cover__image-background {
 	border-radius: 20px;
 }
 
+.wcit-home-cta .wp-block-column:hover {
+	background-color: #ddd;
+}
+
 .wcit-home-cta a {
 	text-decoration: none;
 }
@@ -2244,6 +2248,15 @@ div.home-cover .wp-block-cover__image-background {
 	background-color: initial !important;
 	color: #174499 !important;
 	text-decoration: none !important;
+}
+
+.wcit-home-cta.lower h3 {
+	font-family: "Montserrat Alternates", "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: none;
+}
+
+.wcit-home-cta.strong p {
+	font-weight: 600;
 }
 
 /* Buttons */
