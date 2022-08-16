@@ -2232,12 +2232,12 @@ div.home-cover .wp-block-cover__image-background {
 }
 
 .wcit-home-cta .wp-block-column {
-	border: 3px #ddd solid;
+	border: 3px #e6e6e6 solid;
 	border-radius: 20px;
 }
 
 .wcit-home-cta .wp-block-column:hover {
-	background-color: #ddd;
+	background-color: #e6e6e6;
 }
 
 .wcit-home-cta a {
@@ -2257,6 +2257,16 @@ div.home-cover .wp-block-cover__image-background {
 
 .wcit-home-cta.strong p {
 	font-weight: 600;
+	line-height: 1.1em;
+}
+
+.wcit-home-cta.strong-2 p {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	line-height: 1em;
+	letter-spacing: 0.1em;
+	margin: 10px 10px 20px 10px;
 }
 
 /* Buttons */
