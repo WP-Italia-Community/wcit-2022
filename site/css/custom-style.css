@@ -2466,3 +2466,15 @@ body.search .entry-summary {
 		margin-left: 0;
 	}
 }
+
+@media (min-width: 400px) {
+	ul.wordcamp-sponsors {
+		grid-template-columns: initial !important;
+	}
+}
+
+@media (min-width: 420px) {
+	ul.wordcamp-sponsors {
+		grid-template-columns: repeat(2,1fr) !important;
+	}
+}
