@@ -2341,6 +2341,11 @@ button {
 	#tix-attendees .tix-attendee-list {
 		grid-template-columns: repeat(3,1fr);
 	}
+
+	#tix-attendees .tix-field.tix-attendee-url {
+		clear: left;
+	}
+
 	#tix-attendees .tix-field.tix-attendee-twitter,
 	#tix-attendees .tix-field.tix-attendee-url {
 		float: left !important;
