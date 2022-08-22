@@ -1,16 +1,13 @@
-/* Remote CSS from https://api.github.com/repos/wcus/wcus-2021/contents/style.css */
 /*
 Theme Name: WCIT2022
 Theme URI: https://github.com/WP-Italia-Community/wcit-2022
-Author: WCIT Organizers, WCUS Organizers
+Author: WCIT Organizers, WCUS 2021 Organizers
 Description: A block-based theme for WCIT.
 Requires at least: 5.8
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Template: campsite-2017.tix-column-remaining {
-  display: none;
-}
+Template: campsite-2017
 
 The WordCamp IT 2022 theme is distributed under the terms of the GNU GPL.
 
@@ -1603,7 +1600,7 @@ body.single-wcb_sponsor .entry-image {
 	top: 4rem;
 	padding: 2rem;
 	background: #fffdf4;
-	width: 60rem;
+	max-width: 60rem;
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -2078,6 +2075,11 @@ body.blog article.post {
 	display: none;
 }
 
+/* For post long titles */
+.entry-header .entry-title {
+	text-shadow: 0 0 4px #174499;
+}
+
 /* Highlight current menu item */
 .menu-item.current-menu-item a {
 	text-decoration: underline;
@@ -2095,8 +2097,8 @@ body.blog article.post {
 	font-size: 1.125rem;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
 }
-
 /* FINE FORM */
+
 /* Add box shadow to sub menu */
 .menu .sub-menu {
 	box-shadow: inset 0 -5px 3px -5px #fffbec, inset -5px 0 3px -5px #fffbec, inset 5px 0 3px -5px #fffbec;
@@ -2185,14 +2187,11 @@ div.sharedaddy h3.sd-title {
 }
 
 /* Home page cover*/
-body.home .entry-header,
-body.page-id-1034 .entry-header
-{
+body.home .entry-header {
 	display: none;
 }
 
-body.home .entry-content,
-body.page-id-1034 .entry-content {
+body.home .entry-content {
 	margin-top: 0;
 }
 
@@ -2258,6 +2257,7 @@ div.home-cover .wp-block-cover__image-background {
 .wcit-home-cta.strong p {
 	font-weight: 600;
 	line-height: 1.1em;
+	font-size: 1rem;
 }
 
 .wcit-home-cta.strong-2 p {
@@ -2360,7 +2360,7 @@ button {
 #tix-attendees .tix-columns-3 li {
 	/*width: calc(100% - 34px);*/
 	height: 128px;
-	border: 3px solid #ddd;
+	border: 3px solid #e6e6e6;
 	transition: all .25s ease;
 	padding: 22px 12px 12px 22px;
 	border-radius: 20px;
@@ -2370,8 +2370,8 @@ button {
 }
 
 #tix-attendees .tix-columns-3 li:hover {
-	border-color: #ddd;
-	background-color: #ddd;
+	border-color: #e6e6e6;
+	background-color: #e6e6e6;
 	transition: all .25s ease;
 }
 
@@ -2476,5 +2476,16 @@ body.search .entry-summary {
 @media (min-width: 420px) {
 	ul.wordcamp-sponsors {
 		grid-template-columns: repeat(2,1fr) !important;
+	}
+}
+
+/* Fixed horizontal scroll */
+@media screen and (max-width: 1023px) {
+	.wp-block-jetpack-contact-form .grunion-field-wrap {
+		border-right: none;
+	}
+
+	.tix-order-summary th {
+		padding: 1rem 1.2rem;
 	}
 }
