@@ -2416,7 +2416,8 @@ button {
 	box-shadow: 0 0 0 2px #174499;
 }
 
-body.single-wcb_sponsor .entry-image {
+body.single-wcb_sponsor .entry-image,
+.wordcamp-sponsors a {
 	background-color: #fff;
 }
 
