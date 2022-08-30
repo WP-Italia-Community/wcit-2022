@@ -497,7 +497,6 @@ a.more-link:focus {
 	margin-right: auto;
 	padding: 2rem;
 	max-width: 60rem;
-	background: url('https://wc-us.org/wp-content/uploads/2021/08/star.svg') no-repeat center;
 }
 
 .posts-navigation .nav-links,
@@ -1978,6 +1977,7 @@ h2, h3, h4 {
 	/*background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffcd01 50%);*/
 }
 
+.page-content,
 .entry-content {
 	max-width: 60rem;
 }
@@ -1993,6 +1993,14 @@ h2, h3, h4 {
 
 .entry-title {
 	word-break: break-word;
+}
+
+body:not(.wcb_sponsor) .entry-image {
+	margin-top: 1rem;	
+}
+
+.entry-image img {
+	border-radius: 10px;
 }
 
 /* MENU */
@@ -2431,7 +2439,8 @@ body.single-wcb_sponsor .entry-image,
 }
 
 /* Hide tags on post used in HP */
-#post-3 .tags-links {
+#post-3 .tags-links,
+.tag-link-30 {
 	display: none;
 }
 
@@ -2444,6 +2453,28 @@ body.search .entry-summary {
 
 body.search .entry-summary {
 	margin: 0 auto;
+}
+
+body.archive .entry-header .entry-title,
+body.search .entry-header .entry-title,
+body.blog .entry-header .entry-title {
+	text-shadow: none;
+}
+
+/* Location page */
+.wcit-location-maps {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+
+.wcit-location-maps iframe {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
 }
 
 @media (min-width: 60rem) {
