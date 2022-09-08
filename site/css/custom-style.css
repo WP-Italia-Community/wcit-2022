@@ -1999,6 +1999,7 @@ body:not(.wcb_sponsor) .entry-image {
 	margin-top: 1rem;	
 }
 
+body.single-wcb_sponsor .entry-image,
 .entry-image img {
 	border-radius: 10px;
 }
@@ -2461,6 +2462,15 @@ body.blog .entry-header .entry-title {
 	text-shadow: none;
 }
 
+/* Hide prefix: on archive titles */
+body.archive h1.page-title {
+	font-size: 0 !important;	
+}
+
+body.archive h1.page-title span {
+	font-size: 2.5rem !important;
+}
+
 /* Location page */
 .wcit-location-maps {
 	overflow:hidden;
@@ -2475,6 +2485,19 @@ body.blog .entry-header .entry-title {
 	height:100%;
 	width:100%;
 	position:absolute;
+}
+
+/* gravatar adjustements */
+.tix-attendee-list img[src*="429e5568f88110fd9a409b84cb22197e"] {
+	background-repeat: no-repeat;
+	background-image: url("https://italia.wordcamp.org/2022/files/2022/09/kinsta_square.png");
+	background-size: contain;
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:96px;
+	height:96px;
+	padding-left:96px;
 }
 
 @media (min-width: 60rem) {
