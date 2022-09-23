@@ -2500,6 +2500,55 @@ body.archive h1.page-title span {
 	padding-left:96px;
 }
 
+/* Organizers */
+.wp-block-group.wcit-team .wp-block-group__inner-container p,
+.taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team {
+	color: #FFF;
+	letter-spacing: .1em;
+	padding: 0.2rem;
+	font-weight: 500;
+	font-size: .8em;
+	text-transform: uppercase;
+	background: #f39200;
+	width: fit-content;
+}
+
+.wp-block-group.wcit-team .wp-block-group__inner-container p:before,
+.taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team:before {
+	content: "Team ";
+}
+
+.taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team a {
+	color: #FFF;
+	pointer-events: none;
+	text-decoration: none;
+}
+
+/* Speakers */
+body.single-wcb_speaker .wp-block-wordcamp-avatar {
+	float: left;
+	padding-right: 80px;
+	width: 100% !important;
+	max-width: 300px !important;
+	height: auto !important;
+}
+
+body.single-wcb_speaker .wp-block-wordcamp-avatar img {
+	clip-path: initial;
+	border: solid 10px #95c11f;
+}
+
+body.single-wcb_speaker .entry-content h2 {
+	clear: both;
+}
+
+body.single-wcb_speaker h1.entry-title:after {
+	content: "speaker";
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
 @media (min-width: 60rem) {
 	#tix {
 		margin-left: auto;
