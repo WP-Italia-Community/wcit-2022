@@ -2500,6 +2500,18 @@ body.archive h1.page-title span {
 	padding-left:96px;
 }
 
+.postid-1694 .wcit-session-two-avatar figure:nth-of-type(2) img {
+	background-repeat: no-repeat;
+	background-image: url("https://secure.gravatar.com/avatar/bf9cefc6aaa675773bb9a48482979fea?s=512&d=mm&r=g");
+	background-size: contain;
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:96px;
+	height:109px;
+	padding-left:96px;
+}
+
 /* Organizers */
 .wp-block-group.wcit-team .wp-block-group__inner-container p,
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team {
@@ -2544,6 +2556,33 @@ body.single-wcb_speaker .entry-content h2 {
 
 body.single-wcb_speaker h1.entry-title:after {
 	content: "speaker";
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+.wcit-avatar img.avatar {
+	border-radius: 9999px;
+	border: solid 10px #95c11f;
+}
+
+/* Sessions */
+body.single-wcb_session .wp-block-wordcamp-avatar {
+	top: initial;
+	padding-right: 20px
+}
+
+body.single-wcb_session .wp-block-wordcamp-avatar img {
+	clip-path: initial;
+	border: solid 8px #95c11f;
+}
+
+body.single-wcb_session .wcit-session-info {
+	margin: auto 0 auto 0;
+}
+
+body.single-wcb_session h1.entry-title:after {
+	content: "sessione";
 	display: block;
 	text-transform: uppercase;
 	font-size: 1.5rem;
