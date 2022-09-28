@@ -2588,6 +2588,11 @@ body.single-wcb_session h1.entry-title:after {
 	font-size: 1.5rem;
 }
 
+.single-wcb_session h2.session-speakers,
+.single-wcb_session #session-speaker-names {
+	display: none;
+}
+
 /* Schedule */
 .wp-block-wordcamp-schedule {
 	padding: 0;
