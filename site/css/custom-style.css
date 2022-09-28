@@ -1006,6 +1006,7 @@ body #eu-cookie-law input[type="submit"]:focus {
 
 .wp-block-wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:hover {
 	color: #f39641;
+	background-color: unset;
 }
 
 .wp-block-wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button[aria-pressed="true"] {
@@ -1996,7 +1997,7 @@ h2, h3, h4 {
 }
 
 body:not(.wcb_sponsor) .entry-image {
-	margin-top: 1rem;	
+	margin-top: 1rem;
 }
 
 body.single-wcb_sponsor .entry-image,
@@ -2464,7 +2465,7 @@ body.blog .entry-header .entry-title {
 
 /* Hide prefix: on archive titles */
 body.archive h1.page-title {
-	font-size: 0 !important;	
+	font-size: 0 !important;
 }
 
 body.archive h1.page-title span {
