@@ -2589,7 +2589,8 @@ body.single-wcb_session h1.entry-title:after {
 }
 
 .single-wcb_session h2.session-speakers,
-.single-wcb_session #session-speaker-names {
+.single-wcb_session #session-speaker-names,
+.single-wcb_session .session-categories-links {
 	display: none;
 }
 
