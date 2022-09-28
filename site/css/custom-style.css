@@ -2650,6 +2650,7 @@ body.single-wcb_session h1.entry-title:after {
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-title + p {
 	margin: 0;
+	word-spacing: -.2em;
 }
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speakers:before {
