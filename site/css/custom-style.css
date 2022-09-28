@@ -2675,8 +2675,9 @@ body.single-wcb_session h1.entry-title:after {
 
 .wp-block-wordcamp-schedule .wordcamp-schedule__session-category {
 	color: #333;
+	text-align: right;
+	margin-bottom: 0;
 }
-
 
 @media (min-width: 60rem) {
 	#tix {
