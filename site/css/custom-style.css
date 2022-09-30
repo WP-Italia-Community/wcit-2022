@@ -2472,6 +2472,29 @@ body.archive h1.page-title span {
 	font-size: 2.5rem !important;
 }
 
+/* Long title fix */
+body.single-wcb_session .entry-title {
+	font-size: 2.7rem !important;
+}
+
+body.single-wcb_session .entry-header {
+	min-height: 20rem !important;
+	height: initial !important;
+}
+
+body.single-wcb_session .entry-header::before {
+	min-height: 20rem !important;
+	height: initial !important;
+}
+
+body.single-wcb_session .entry-content {
+	margin-top: 2rem !important;	
+}
+
+h2.entry-title {
+	font-size: 2rem;	
+}
+
 /* Location page */
 .wcit-location-maps {
 	overflow: hidden;
@@ -2501,7 +2524,8 @@ body.archive h1.page-title span {
 	padding-left: 96px;
 }
 
-.postid-1694 .wcit-session-two-avatar figure:nth-of-type(2) img {
+.postid-1694 .wcit-session-two-avatar figure:nth-of-type(2) img,
+.post-1694 .wcit-session-two-avatar figure:nth-of-type(2) img {
 	background-repeat: no-repeat;
 	background-image: url("https://secure.gravatar.com/avatar/bf9cefc6aaa675773bb9a48482979fea?s=512&d=mm&r=g");
 	background-size: contain;
@@ -2515,6 +2539,7 @@ body.archive h1.page-title span {
 
 /* Organizers */
 .wp-block-group.wcit-team .wp-block-group__inner-container p,
+.wp-block-group.wcit-team p,
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team {
 	color: #FFF;
 	letter-spacing: .1em;
@@ -2528,14 +2553,40 @@ body.archive h1.page-title span {
 }
 
 .wp-block-group.wcit-team .wp-block-group__inner-container p:before,
+.wp-block-group.wcit-team p:before,
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team:before {
 	content: "Team ";
+	text-transform: none;
 }
 
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team a {
 	color: #FFF;
 	pointer-events: none;
 	text-decoration: none;
+}
+
+body.single-wcb_organizer h1.entry-title:after {
+	content: "Organizzazione";
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+body.archive.tax-wcb_organizer_team h1.page-title:after {
+	content: "Team";
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+body.archive.tax-wcb_organizer_team h2.entry-title {
+	font-size: 2rem;
+	margin-top: 3rem;
+}
+
+body.archive.tax-wcb_organizer_team .entry-content p,
+body.archive.tax-wcb_organizer_team .entry-content ul,
+body.archive.tax-wcb_organizer_team .entry-footer {
+	display: none;
 }
 
 /* Speakers */
@@ -2603,16 +2654,19 @@ ul.wordcamp-speakers .wordcamp-post-list__post img {
 }
 
 /* Sessions */
+body.archive.tax-wcb_session_category .wp-block-wordcamp-avatar,
 body.single-wcb_session .wp-block-wordcamp-avatar {
 	top: initial;
 	padding-right: 20px;
 }
 
+body.archive.tax-wcb_session_category .wp-block-wordcamp-avatar img,
 body.single-wcb_session .wp-block-wordcamp-avatar img {
 	clip-path: initial;
 	border: solid 8px #95c11f;
 }
 
+body.archive.tax-wcb_session_category .wcit-session-info,
 body.single-wcb_session .wcit-session-info {
 	margin: auto 0;
 }
@@ -2625,16 +2679,42 @@ body.single-wcb_session h1.entry-title:after {
 }
 
 .single-wcb_session h2.session-speakers,
-.single-wcb_session #session-speaker-names,
-.single-wcb_session .session-categories-links {
+.single-wcb_session #session-speaker-names {
 	display: none;
+}
+
+.single-wcb_session span.session-categories-links {
+	display: block;
+}
+
+.single-wcb_session span.session-categories-links:before {
+    content: "Argomento ";
+	font-style: italic;
+}
+
+.single-wcb_session span.session-categories-links a {
+	color: #FFF;
+	letter-spacing: .1em;
+	padding: 0.3rem;
+	font-weight: 700;
+	font-size: .8em;
+	text-transform: uppercase;
+	background: #f39200;
+	width: fit-content;
+	text-decoration: none;
+}
+
+.single-wcb_session span.session-categories-links a:hover {
+	background: #FFF;
+	color: #f39200;
+	box-shadow: 0 0 1px 1px #f39200 !important;
 }
 
 ul.wordcamp-sessions {
 	padding-left: 0px;
 }
 
-ul.wordcamp-sessions .wcit-spealer-session-info {
+ul.wordcamp-sessions .wcit-speaker-session-info {
 	display: none;
 }
 
@@ -2648,6 +2728,24 @@ ul.wordcamp-sessions .wordcamp-post-list__post:hover {
 	background-color: #e6e6e6;
 }
 
+/* Session category archive */
+body.archive.tax-wcb_session_category h2.entry-title {
+	font-size: 2rem;
+	margin-top: 3rem;
+}
+
+body.archive.tax-wcb_session_category .entry-content p,
+body.archive.tax-wcb_session_category .entry-content ul,
+body.archive.tax-wcb_session_category .entry-footer {
+	display: none;
+}
+
+body.archive.tax-wcb_session_category h1.page-title:after {
+	content: "sessioni";
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
 
 /* Schedule */
 .wp-block-wordcamp-schedule {
@@ -2806,5 +2904,11 @@ ul.wordcamp-sessions .wordcamp-post-list__post:hover {
 
 	.tix-order-summary th {
 		padding: 1rem 1.2rem;
+	}
+}
+
+@media (min-width: 600px) {
+	.wordcamp-post-list.has-layout-grid {
+		grid-template-columns: repeat(2,1fr);
 	}
 }
