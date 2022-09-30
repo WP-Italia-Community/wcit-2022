@@ -7,10 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.0.11] - 2022-09-29
 ### Added
  - Sessions and speakers listing styles.
+ - `/session-category/`, and `/team/` archive pages styles.
 
 ### Fixed
  - Some coding standars.
  - Contributor Day schedule.
+ - Long titles (mobile+desktop).
 
 ## [1.0.10] - 2022-09-29
 ### Fixed
