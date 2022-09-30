@@ -2683,10 +2683,6 @@ body.single-wcb_session h1.entry-title:after {
 	display: none;
 }
 
-.single-wcb_session span.session-categories-links {
-	display: block;
-}
-
 .single-wcb_session span.session-categories-links:before {
     content: "Argomento ";
 	font-style: italic;
