@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.13] - 2022-03-10
+### Added
+ - CSS rules to hide featured image on posts.
+
+### Changed
+ - Removed rules for CTA long titles.
+
+### Fixed
+ - Double avatar speech (mobile).
+
 ## [1.0.12] - 2022-09-30
 ### Added
  - `/session-category/`, and `/team/` archive pages styles.
