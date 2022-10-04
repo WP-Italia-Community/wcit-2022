@@ -2022,6 +2022,22 @@ body.single-wcb_sponsor .entry-image,
 	font-size: .8rem;
 	color: #FFF;
 }
+
+/* Highlight tickets */
+.main-navigation .menu-item-941 a {
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 7px 9px;
+	margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 782px) {
+	.main-navigation .menu-item-941 a {
+		margin-top: unset;
+		margin-left: -3px;
+	}
+}
+
 /* FINE MENU */
 
 /* BLOG */
