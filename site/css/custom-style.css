@@ -2566,25 +2566,36 @@ h2.entry-title {
 }
 
 /* Organizers */
-.wp-block-group.wcit-team .wp-block-group__inner-container p,
-.wp-block-group.wcit-team p,
+.wp-block-group.wcit-team {
+	display: none;
+}
+
+.wp-block-group.wcit-team .wp-block-group__inner-container a,
+.wp-block-group.wcit-team a,
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team {
 	color: #FFF;
 	letter-spacing: .1em;
 	padding: 0.3rem;
 	font-weight: 700;
-	font-size: .8em;
+	font-size: .9em;
 	text-transform: uppercase;
 	background: #f39200;
 	width: fit-content;
-	display: none;
+	text-decoration: none;
 }
 
-.wp-block-group.wcit-team .wp-block-group__inner-container p:before,
-.wp-block-group.wcit-team p:before,
+.wp-block-group.wcit-team .wp-block-group__inner-container a:before,
+.wp-block-group.wcit-team a:before,
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team:before {
 	content: "Team ";
 	text-transform: none;
+}
+
+.wp-block-group.wcit-team .wp-block-group__inner-container a:hover,
+.wp-block-group.wcit-team a:hover {
+	background: #FFF;
+	color: #f39200;
+	box-shadow: 0 0 1px 1px #f39200 !important;
 }
 
 .taxonomy-wcb_organizer_team.wp-block-post-terms.wcit-team a {
