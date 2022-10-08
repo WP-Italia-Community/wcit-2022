@@ -33,4 +33,18 @@ TRANSP:OPAQUE
 LOCATION:Università degli Studi di Milano, Via Festa del Perdono 7, 20122 Milano
 DESCRIPTION:WordCamp Italia 2022 https://italia.wordcamp.org/2022/
 END:VEVENT
+BEGIN:VEVENT
+UID:13
+DTSTAMP:20221112T200000Z
+DTSTART:20221112T200000Z
+DTEND:20221112T230000Z
+CATEGORIES:WordPress
+ORGANIZER;CN=WordPress Italian community Team:mailto:mail@example.com
+SUMMARY:WordCamp Italia 2022 - After Party
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+LOCATION:Milano
+DESCRIPTION:WordCamp Italia 2022 - After Party - https://italia.wordcamp.org/2022/
+END:VEVENT
 END:VCALENDAR
