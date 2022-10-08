@@ -2303,6 +2303,20 @@ div.home-cover .wp-block-cover__image-background {
 	*/
 }
 
+/* Home page foreground news */
+h2.wcit-foreground {
+	text-align: center !important;
+}
+
+.wcit-foreground li {
+	border-radius: 20px;
+	border: 0px solid #e6e6e6;
+}
+
+.wcit-foreground h2.wp-block-post-title {
+	font-size: 1.8rem;
+}
+
 /* Buttons */
 .wp-block-button__link:focus {
 	outline: none;
@@ -2451,7 +2465,7 @@ body.single-wcb_sponsor .entry-image,
 
 /* CTA buttons */
 .wcit-cta-button {
-	color: #fff;
+	color: #fff !important;
 }
 
 .wcit-cta-button a {
@@ -2892,6 +2906,132 @@ body.archive.tax-wcb_session_category h1.page-title:after {
 	text-align: center;
 }
 
+/* Livestream */
+body.page-id-2613 h1.entry-title:after,
+body.page-id-2615 h1.entry-title:after {
+	content: "livestream";
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+.wcit-livestream-top-notes {
+	margin: 0;
+}
+
+/* Press kit */
+.wcit-presskit a:hover {
+	text-decoration: none;
+	background-color: unset;
+}
+
+.wcit-presskit .wp-block-image {
+	padding-top: 10px;
+}
+
+.wcit-presskit .wp-block-image:hover {
+	background-color: #e6e6e6;
+	border-radius: 20px;
+}
+
+.wcit-presskit img {
+	border-radius: 5px;
+}
+
+.wcit-presskit-color a {
+	cursor: unset;
+	color: #fff;
+	min-width: 140px !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-color: #ccc;
+}
+
+.wcit-presskit-color .wcit-presskit-color_174499 a,
+.wcit-presskit-color .wcit-presskit-color_174499 a:hover {
+	background-color: #174499 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_143879 a,
+.wcit-presskit-color .wcit-presskit-color_143879 a:hover {
+	background-color: #143879 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_36a9e1 a,
+.wcit-presskit-color .wcit-presskit-color_36a9e1 a:hover {
+	background-color: #36a9e1 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_000000 a,
+.wcit-presskit-color .wcit-presskit-color_000000 a:hover {
+	background-color: #000 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_ffffff a,
+.wcit-presskit-color .wcit-presskit-color_ffffff a:hover {
+	background-color: #fff !important;
+	color: #000;
+}
+
+.wcit-presskit-color .wcit-presskit-color_929292 a,
+.wcit-presskit-color .wcit-presskit-color_9292929 a:hover {
+	background-color: #929292 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_dadada a,
+.wcit-presskit-color .wcit-presskit-color_dadada a:hover {
+	background-color: #dadada !important;
+	color: #000;
+}
+
+.wcit-presskit-color .wcit-presskit-color_23732c a,
+.wcit-presskit-color .wcit-presskit-color_23732c a:hover {
+	background-color: #23732c !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_278912 a,
+.wcit-presskit-color .wcit-presskit-color_278912 a:hover {
+	background-color: #278912 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_95c11f a,
+.wcit-presskit-color .wcit-presskit-color_95c11f a:hover {
+	background-color: #95c11f !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_be1622 a,
+.wcit-presskit-color .wcit-presskit-color_be1622 a:hover {
+	background-color: #be1622 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_ff4343 a,
+.wcit-presskit-color .wcit-presskit-color_ff4343 a:hover {
+	background-color: #ff4343 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_fd6363 a,
+.wcit-presskit-color .wcit-presskit-color_fd6363 a:hover {
+	background-color: #fd6363 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_f39200 a,
+.wcit-presskit-color .wcit-presskit-color_f39200 a:hover {
+	background-color: #f39200 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_ffcd01 a,
+.wcit-presskit-color .wcit-presskit-color_ffcd01 a:hover {
+	background-color: #ffcd01 !important;
+	color: #000;
+}
+
+.wcit-presskit-color .wcit-presskit-color_ffed00 a,
+.wcit-presskit-color .wcit-presskit-color_ffed00 a:hover {
+	background-color: #ffed00 !important;
+	color: #000;
+}
+
+/* Media queries */
 @media (min-width: 60rem) {
 	#tix {
 		margin-left: auto;
@@ -2901,7 +3041,6 @@ body.archive.tax-wcb_session_category h1.page-title:after {
 	}
 }
 
-/* Media queries */
 @media screen and (max-width: 782px) {
 	.main-navigation .sub-menu {
 		width: 100%;
