@@ -4,14 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.0.14] - 2022-04-10
+## [1.0.15] - 2022-10-08
+### Added
+ - Media Kit styles.
+ - Livestream styles.
+
+## [1.0.14] - 2022-10-94
 ### Added
  - Highlighted Ticekt menu item.
 
 ### Changed
  - Refactored styles for organizers team label.
 
-## [1.0.13] - 2022-03-10
+## [1.0.13] - 2022-10-03
 ### Added
  - CSS rules to hide featured image on posts.
 
