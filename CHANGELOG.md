@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.16] - 2022-10-11
+### Added
+ - Palette color.
+ - Livestream buttons styles.
+
 ## [1.0.15] - 2022-10-08
 ### Added
  - Media Kit styles.
@@ -11,7 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.0.14] - 2022-10-94
 ### Added
- - Highlighted Ticekt menu item.
+ - Highlighted Ticket menu item.
 
 ### Changed
  - Refactored styles for organizers team label.
