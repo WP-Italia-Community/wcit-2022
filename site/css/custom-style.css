@@ -2919,6 +2919,16 @@ body.page-id-2615 h1.entry-title:after {
 	margin: 0;
 }
 
+.wcit-livestream-buttons a {
+	color: #fff !important;
+	background-color: #36a9e1 !important;
+}
+
+.wcit-livestream-buttons a:hover {
+	color: #36a9e1 !important;
+	background-color: #fff !important;
+}
+
 /* Press kit */
 .wcit-presskit a:hover {
 	text-decoration: none;
@@ -2965,6 +2975,16 @@ body.page-id-2615 h1.entry-title:after {
 .wcit-presskit-color .wcit-presskit-color_000000 a,
 .wcit-presskit-color .wcit-presskit-color_000000 a:hover {
 	background-color: #000 !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_1d1d1d a,
+.wcit-presskit-color .wcit-presskit-color_1d1d1d a:hover {
+	background-color: #1d1d1d !important;
+}
+
+.wcit-presskit-color .wcit-presskit-color_706f6f a,
+.wcit-presskit-color .wcit-presskit-color_706f6f a:hover {
+	background-color: #706f6f !important;
 }
 
 .wcit-presskit-color .wcit-presskit-color_ffffff a,
