@@ -2199,6 +2199,11 @@ div.sharedaddy h3.sd-title {
 	color: #36a9e1 !important;
 }
 
+.wcit-diunimi-logo img {
+	max-width: 100px;
+	border-radius: 10px;
+}
+
 /* Fix bottom site info */
 .site-footer .site-info {
 	padding: 1rem;
@@ -2472,8 +2477,8 @@ body.single-wcb_sponsor .entry-image,
 	background-color: #174499 !important;
 }
 
-/* Hide tags on post used in HP */
-#post-3 .tags-links,
+/* Hide tags on posts */
+.tags-links,
 .tag-link-30 {
 	display: none;
 }
@@ -2904,6 +2909,10 @@ body.archive.tax-wcb_session_category h1.page-title:after {
 
 #wordcamp-schedule__day-2022-11-11-tracks-all .wordcamp-schedule__session-title + p {
 	text-align: center;
+}
+
+.wordcamp-schedule__date {
+	text-transform: lowercase;
 }
 
 /* Livestream */
