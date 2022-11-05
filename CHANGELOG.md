@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.17] - 2022-11-05
+### Added
+ - After Party location and date to _.ics_.
+ - CSS for Unimi logo. 
+
+### Changed
+ - Lowercase month name in schedule.
+
 ## [1.0.16] - 2022-10-11
 ### Added
  - Palette color.
