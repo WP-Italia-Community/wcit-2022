@@ -2938,6 +2938,10 @@ body.page-id-2615 h1.entry-title:after {
 	background-color: #fff !important;
 }
 
+body.page-id-2611 #captions {
+	text-align: center !important;
+}
+
 /* Press kit */
 .wcit-presskit a:hover {
 	text-decoration: none;
@@ -3058,6 +3062,29 @@ body.page-id-2615 h1.entry-title:after {
 .wcit-presskit-color .wcit-presskit-color_ffed00 a:hover {
 	background-color: #ffed00 !important;
 	color: #000;
+}
+
+/* Calendar links block */
+.wcit-calendar {
+	display: block !important;
+	text-align: right;
+}
+
+.wcit-calendar div {
+	display: inline;
+}
+
+.wcit-calendar a {
+	align-items: center;
+	text-decoration: none;
+}
+
+.wcit-calendar a span {
+	vertical-align: text-top;
+}
+
+.wcit-hidden {
+	display: none;
 }
 
 /* Media queries */
