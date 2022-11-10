@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.18] - 2022-11-10
+### Added
+ - Calendar CSS.
+
 ## [1.0.17] - 2022-11-05
 ### Added
  - After Party location and date to _.ics_.
